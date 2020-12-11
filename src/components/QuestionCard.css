@@ -1,0 +1,46 @@
+.userdetails {
+  display: flex;
+  justify-content: space-between;
+}
+.userdetails > div {
+  display: flex;
+  flex-direction: column;
+}
+.data_upcount {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userdetails > div > h2 {
+  font-weight: 300;
+  font-size: smaller;
+  margin-top: 0.5rem;
+  width: 1rem;
+}
+.userdetails > h2 {
+  font-weight: 300;
+  margin: 0 3rem;
+}
+.rounded {
+  border: 1px solid lightgray;
+  width: fit-content;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  font-weight: 100;
+  font-size: large;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+.questionCard {
+  border: 1px solid lightgray;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 50%;
+  margin: 2rem auto;
+}
+.tags {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin: 0 auto;
+}

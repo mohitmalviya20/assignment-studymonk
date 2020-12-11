@@ -1,39 +1,65 @@
-.App {
+.question_details {
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
+}
+.question_details > h2 {
+  margin: 1rem;
+  font-weight: 300;
+  font-size: larger;
+}
+.question_status {
+  padding: 0.5rem;
+  border: 1px solid lightgray;
+  border-radius: 0.5rem;
+  width: fit-content;
+  margin: 1rem auto;
+  background-color: lightgreen;
+}
+.question_status-not {
+  padding: 0.5rem;
+  border: 1px solid lightgray;
+  border-radius: 0.5rem;
+  width: fit-content;
+  margin: 1rem auto;
+  background-color: lightsalmon;
+}
+.question_status > h2,
+.question_status-not > h2 {
+  font-size: large;
+}
+.modal > p {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button > a {
+  text-decoration: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+.button {
+  width: fit-content;
+  margin: 1rem auto;
 }
+.button > a > button {
+  text-transform: inherit;
 
-.App-header {
-  min-height: 100vh;
+  background-color: #0792f7;
+  color: white;
+}
+.button > a > button:hover {
+  background-color: #0792f7;
+  color: white;
+}
+.search_bar {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 40rem;
+  margin: 1rem auto;
+  border: 1px solid lightgray;
+  padding: 0.5rem;
+  border-radius: 1rem;
 }
-
-.App-link {
-  color: rgb(112, 76, 182);
-}
-
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px)
-  }
-  100% {
-    transform: translateY(0px)
-  }
+.search_bar > input {
+  width: 100%;
+  border: none;
+  margin-left: 1rem;
+  outline-width: 0;
 }
